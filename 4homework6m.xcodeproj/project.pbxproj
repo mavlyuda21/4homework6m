@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		9A9731482A4C5C1100FDFBC1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9731472A4C5C1100FDFBC1 /* main.swift */; };
+		9A9731532A4C660700FDFBC1 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9731522A4C660700FDFBC1 /* Product.swift */; };
+		9A9731562A4C662E00FDFBC1 /* ProductFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9731552A4C662E00FDFBC1 /* ProductFactory.swift */; };
+		9A9731582A4C663D00FDFBC1 /* QRFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9731572A4C663D00FDFBC1 /* QRFactory.swift */; };
+		9A97315A2A4C664F00FDFBC1 /* BarcodeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9731592A4C664F00FDFBC1 /* BarcodeFactory.swift */; };
+		9A97315C2A4C666100FDFBC1 /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A97315B2A4C666100FDFBC1 /* DataBase.swift */; };
+		9A97315F2A4C668600FDFBC1 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A97315E2A4C668600FDFBC1 /* Shop.swift */; };
+		9A9731642A4C74D300FDFBC1 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9731632A4C74D300FDFBC1 /* Observer.swift */; };
+		9A9731662A4C74DB00FDFBC1 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9731652A4C74DB00FDFBC1 /* Observable.swift */; };
+		9A9731682A4C764E00FDFBC1 /* Radio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9731672A4C764E00FDFBC1 /* Radio.swift */; };
+		9A97316A2A4C768500FDFBC1 /* TV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9731692A4C768500FDFBC1 /* TV.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +35,16 @@
 /* Begin PBXFileReference section */
 		9A9731442A4C5C1100FDFBC1 /* 4homework6m */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 4homework6m; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9731472A4C5C1100FDFBC1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9A9731522A4C660700FDFBC1 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		9A9731552A4C662E00FDFBC1 /* ProductFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductFactory.swift; sourceTree = "<group>"; };
+		9A9731572A4C663D00FDFBC1 /* QRFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRFactory.swift; sourceTree = "<group>"; };
+		9A9731592A4C664F00FDFBC1 /* BarcodeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeFactory.swift; sourceTree = "<group>"; };
+		9A97315B2A4C666100FDFBC1 /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
+		9A97315E2A4C668600FDFBC1 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		9A9731632A4C74D300FDFBC1 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		9A9731652A4C74DB00FDFBC1 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		9A9731672A4C764E00FDFBC1 /* Radio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radio.swift; sourceTree = "<group>"; };
+		9A9731692A4C768500FDFBC1 /* TV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TV.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +77,43 @@
 		9A9731462A4C5C1100FDFBC1 /* 4homework6m */ = {
 			isa = PBXGroup;
 			children = (
+				9A9731622A4C74C000FDFBC1 /* Observer */,
+				9A97315D2A4C667500FDFBC1 /* Shop */,
+				9A9731542A4C662200FDFBC1 /* Factory */,
 				9A9731472A4C5C1100FDFBC1 /* main.swift */,
 			);
 			path = 4homework6m;
+			sourceTree = "<group>";
+		};
+		9A9731542A4C662200FDFBC1 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				9A9731552A4C662E00FDFBC1 /* ProductFactory.swift */,
+				9A9731572A4C663D00FDFBC1 /* QRFactory.swift */,
+				9A9731592A4C664F00FDFBC1 /* BarcodeFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		9A97315D2A4C667500FDFBC1 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				9A9731522A4C660700FDFBC1 /* Product.swift */,
+				9A97315B2A4C666100FDFBC1 /* DataBase.swift */,
+				9A97315E2A4C668600FDFBC1 /* Shop.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		9A9731622A4C74C000FDFBC1 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				9A9731632A4C74D300FDFBC1 /* Observer.swift */,
+				9A9731652A4C74DB00FDFBC1 /* Observable.swift */,
+				9A9731672A4C764E00FDFBC1 /* Radio.swift */,
+				9A9731692A4C768500FDFBC1 /* TV.swift */,
+			);
+			path = Observer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +174,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A97315A2A4C664F00FDFBC1 /* BarcodeFactory.swift in Sources */,
+				9A9731642A4C74D300FDFBC1 /* Observer.swift in Sources */,
 				9A9731482A4C5C1100FDFBC1 /* main.swift in Sources */,
+				9A9731582A4C663D00FDFBC1 /* QRFactory.swift in Sources */,
+				9A97316A2A4C768500FDFBC1 /* TV.swift in Sources */,
+				9A9731662A4C74DB00FDFBC1 /* Observable.swift in Sources */,
+				9A9731682A4C764E00FDFBC1 /* Radio.swift in Sources */,
+				9A9731562A4C662E00FDFBC1 /* ProductFactory.swift in Sources */,
+				9A97315F2A4C668600FDFBC1 /* Shop.swift in Sources */,
+				9A97315C2A4C666100FDFBC1 /* DataBase.swift in Sources */,
+				9A9731532A4C660700FDFBC1 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
